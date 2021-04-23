@@ -1,4 +1,3 @@
-//20006998		1103	Alarme Despertador	Accepted	C	0.000	06/10/2020 17:01:50
 #include <stdio.h>
 
 int main() {
