@@ -1,21 +1,19 @@
 #include <stdio.h>
 
+
 int main(){
     
-    int X,i,ctd;
+    int X,ctd;
 
     scanf("%d",&X);
 
-    if (X/2 == 0){
-        i = 1;
-        ctd = 6;
-        while (ctd == 6)
-        {
-            printf("%d",X+i);
-            i++;
-            ctd--;
-        }
-        
+    if(X % 2 == 0){
+        X++;
+    }
+
+    printf("%d\n",X);
+    for(ctd=1; ctd<=5; ctd++){
+        printf("%d\n",X+=2);
     }
 
     return 0;
