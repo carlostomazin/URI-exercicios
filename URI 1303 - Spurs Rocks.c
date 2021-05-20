@@ -99,7 +99,10 @@ int main(){
         // }
 
         for(ctd = 0; ctd < n ; ctd++){
-            printf("%d ",time[ctd].pontos);
+            printf("%d",time[ctd].pontos);
+            if(ctd != n-1){
+                printf(" ");
+            }
         }
 
         printf("\n");
